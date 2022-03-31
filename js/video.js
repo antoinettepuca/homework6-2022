@@ -61,11 +61,11 @@ document.querySelector("#slider").addEventListener("click", function() {
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
-	document.querySelector("figure").classList.add("oldSchool");
+	document.querySelector("video").classList.add("oldSchool");
 	console.log("Old School class added")
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
-	document.querySelector("figure").classList.remove("oldSchool");
+	document.querySelector("video").classList.remove("oldSchool");
 	console.log("Original class, old school class removed")
 });
